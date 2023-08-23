@@ -1,0 +1,29 @@
+{
+  "name": "scanpay",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "clipboardy": "^3.0.0",
+    "qrcodejs2": "^0.0.2",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.9",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "sass": "^1.64.1",
+    "sass-loader": "^13.3.2"
+  }
+}

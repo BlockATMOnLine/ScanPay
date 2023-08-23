@@ -1,0 +1,25 @@
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+input, textarea {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+}
+

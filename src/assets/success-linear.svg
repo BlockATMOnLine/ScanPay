@@ -1,0 +1,48 @@
+<svg viewBox="0 0 87 87" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .ui-success-circle {
+                stroke-dasharray:260.75219024795285px, 260.75219024795285px;
+                stroke-dashoffset: 260.75219024795285px;
+                animation: ani-success-circle 1.2s linear;
+            }
+            .ui-success-path {
+                stroke-dasharray: 60px 64px;
+                stroke-dashoffset: 62px;
+                stroke-linecap: round;
+                animation: ani-success-path .4s 1s ease-in both;
+            }
+            @keyframes ani-success-circle {
+                0% {
+                    stroke-dasharray: 0, 260.75219024795285px;
+                    stroke-dashoffset: 0;
+                }
+                35% {
+                    stroke-dasharray: 120px, 120px;
+                    stroke-dashoffset: -120px;
+                }
+                70% {
+                    stroke-dasharray: 0, 260.75219024795285px;
+                    stroke-dashoffset: -260.75219024795285px;
+                }
+                100% {
+                    stroke-dasharray: 260.75219024795285px, 0;
+                    stroke-dashoffset: -260.75219024795285px;
+                }
+            }
+            @keyframes ani-success-path {
+                0% {stroke-dashoffset: 62px;}
+                65% {stroke-dashoffset: -5px;}
+                84%{stroke-dashoffset: 4px;}
+                100%{stroke-dashoffset: -2px;}
+            }
+        </style>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(2.000000, 2.000000)">
+            <circle stroke="#67C23A4D" stroke-width="4" cx="41.5" cy="41.5" r="41.5"></circle>
+            <circle class="ui-success-circle" stroke="#67C23A" stroke-width="4" cx="41.5" cy="41.5" r="41.5"></circle>
+            <polyline class="ui-success-path" stroke="#67C23A" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" points="19 40.8036813 34.1020744 55.8046875 63.299221 28"></polyline>
+        </g>
+    </g>
+</svg>

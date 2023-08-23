@@ -1,0 +1,23 @@
+{
+  "copySuccess": "Copy Successfully",
+  "orderDetails": "Order Details",
+  "orderAmount": "Order Amount",
+  "currency": "Currency",
+  "currentChain": "Network",
+  "paymentTips": "Please scan the QR code by wallet",
+  "depositAddress": "Deposit Address",
+  "confirmTips": "We have detected a payment and are waiting for the transaction to complete, this process may take a few minutes……",
+  "paymentSuccess": "Payment Successful",
+  "paymentFail": "Paylment Failed",
+  "loading": "Loading, please wait",
+  "tips": {
+    "title": "Friendly reminder:",
+    "first": "1. It may not be able to successful or recovery of the transaction when you not use the same address as the order.",
+    "second": "2. This address only accept {0}. You may lose your unsupported coin deposits permanently if you transfer the unsupported deposit of coins list.",
+    "third": "3. This is your deposit address at this time and may be changed in the future. So please do not save the address and transfer money again."
+  },
+  "generateOrder": "Generate Order",
+  "orderStatus": "Order Status",
+  "submit": "Submit",
+  "setSuccess": "Set Success"
+}

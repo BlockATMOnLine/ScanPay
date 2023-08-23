@@ -1,0 +1,54 @@
+
+<svg viewBox="0 0 87 87" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .ui-error-circle {
+                stroke-dasharray:260.75219024795285px, 260.75219024795285px;
+                stroke-dashoffset: 260.75219024795285px;
+                animation: ani-error-circle 1.2s linear;
+            }
+            .ui-error-line1{
+                stroke-dasharray: 54px 55px;
+                stroke-dashoffset: 55px;
+                stroke-linecap: round;
+                animation: ani-error-line .15s 1.2s linear both;
+            }
+            .ui-error-line2{
+                stroke-dasharray: 54px 55px;
+                stroke-dashoffset: 55px;
+                stroke-linecap: round;
+                animation: ani-error-line .2s .9s linear both;
+            }
+
+            @keyframes ani-error-line{
+                to { stroke-dashoffset: 0; }
+            }
+            @keyframes ani-error-circle {
+                0% {
+                    stroke-dasharray: 0, 260.75219024795285px;
+                    stroke-dashoffset: 0;
+                }
+                35% {
+                    stroke-dasharray: 120px, 120px;
+                    stroke-dashoffset: -120px;
+                }
+                70% {
+                    stroke-dasharray: 0, 260.75219024795285px;
+                    stroke-dashoffset: -260.75219024795285px;
+                }
+                100% {
+                    stroke-dasharray: 260.75219024795285px, 0;
+                    stroke-dashoffset: -260.75219024795285px;
+                }
+            }
+        </style>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(2.000000, 2.000000)">
+            <circle stroke="#F56C6C4D" stroke-width="4" cx="41.5" cy="41.5" r="41.5"></circle>
+            <circle class="ui-error-circle" stroke="#F56C6C" stroke-width="4" cx="41.5" cy="41.5" r="41.5"></circle>
+            <path class="ui-error-line1" d="M24.244224,24 L58.4279902,58.1837662" stroke-linecap="round" stroke-linejoin="round" stroke="#F56C6C" stroke-width="5"></path>
+            <path class="ui-error-line2" d="M58.755776,23 L25.244224,57.8443492" stroke-linecap="round" stroke-linejoin="round" stroke="#F56C6C" stroke-width="5"></path>
+        </g>
+    </g>
+</svg>

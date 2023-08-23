@@ -1,0 +1,23 @@
+{
+  "copySuccess": "複製成功",
+  "orderDetails": "訂單詳情",
+  "orderAmount": "訂單金額",
+  "currency": "幣種",
+  "currentChain": "網絡",
+  "paymentTips": "請使用數字貨幣錢包掃碼/轉賬支付",
+  "depositAddress": "收款地址",
+  "confirmTips": "我們檢測到有一筆支付，正在等待交易完成，這個過程可能需要幾分鐘……",
+  "paymentSuccess": "支付成功",
+  "paymentFail": "支付失敗",
+  "loading": "加載中，請稍候",
+  "tips": {
+    "title": "溫馨提示:",
+    "first": "1、請使用與訂單一致的網絡的地址進行轉賬，否則可能無法到賬或退回",
+    "second": "2、此地址只接收{0}，轉其他幣將導致無法找回",
+    "third": "3、請核對地址後再確認轉賬，確保支付信息正確"
+  },
+  "generateOrder": "生成訂單",
+  "orderStatus": "訂單狀態",
+  "submit": "確定",
+  "setSuccess": "設置成功"
+}
