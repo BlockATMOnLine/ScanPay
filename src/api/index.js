@@ -8,7 +8,7 @@ export function generateOrder(data) {
         method: 'post',
         data
     })
-}
+
 
 /* 获取订单信息 */
 export function getOrderData(data) {
